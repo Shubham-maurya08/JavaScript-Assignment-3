@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h4>Q1. What are the differences between var, let and const?</h4>
+    <p>
+        <b>Ans: var:(Global Scope)</b>
+        It can be declare in a line and then initialized with a value in another lines and also declare and initialized
+        in the same line.
+        It can be redecalred but can be re-initialized and we can not assign variable same name in var keyword. <br>
+
+        <b>let:(Local Scope)</b>
+        It can be declare in a line and then initialized with a value in another lines and also declare and initialized
+        in the same line.
+        They can not be redecalred and but can be re-initialized.
+        We can not have two variable with same name in let keyword. <br>
+
+        <b>Const:(Local Scope)</b>
+        They can be declared and initialized with a value in same line only. But can not be redecalred and cannot be
+        re-initialized.
+        We can not have two variable with same name in const keyword.
+    </p><br>
+    <h4>Q2. What is difference between null and undefined and where to use what?</h4>
+    <p>
+        Ans: Null is a special value that represents an empty or unknown value.
+    <pre>
+    <b>Example:</b>
+    var test1 = null;
+    console.log(test1);
+</pre>
+
+    Undefined means a variable has been declared, but the value of that variable has not yet been defined.
+    <pre>
+        <b>Example:</b>
+        var test2;
+        console.log(test2);
+    </pre>
+    </p>
+
+    <h4>Q3. What is use of prompt in JavaScript?</h4>
+    <p>
+        Ans: It's a inbuilt function which is used to display a dialog box that asks the user to input. This pop-up box
+        will appear and takes user input before entering the web page. It waits until the user enters any value in the
+        text box or we can also cancel the dialog box.
+    </p>
+
+    <h4>Q4. Why JavaScript is Dyanmic Language? Write the Code for all Data types.</h4>
+    <p>
+        Ans: JavaScript is a dynamically typed language, which means that data types of variables are determined by the
+        value
+        they hold at runtime and can change throughout the program as we assign different values to them <br>
+        There are two type of datatypes present in Javascript.
+    <pre>
+            1- Primitive Data Type
+            2- Non-primitive Data Type
+    
+            Primitive Datatype consist of 5 different data type named -
+            Number :- let a = 123
+            String :- let b = "Hey Javascript"
+            Boolean :- let c = true/false
+            Undefined :- let d;
+            Null :- let e = null
+        
+            Non-primitive datatype consist of 3 different data type named 
+            Object :- {key : value}
+            Array :- [12, 34, 56]
+            Function :- function fun(){}
+        </pre>
+    </p>
+
+    <h4>Q5. What are the uses of JavaScript Operators?</h4>
+    <p>
+        Ans: Operators are used to assign values, compare values, perform arithmetic operations etc. There are different
+        types of JavaScript operators:
+    <pre>
+            Arithmetic Operators
+            Assignment Operators
+            Comparison Operators
+            Logical Operators
+            Conditional Operators(ternary operator)
+            Typeof Operators
+            Bitwise Operators
+        </pre>
+    </p>
+
+    <h4>Q6. Explain the Assignment Operator.</h4>
+    <p>
+        Ans: JavaScript assignment operator is equal (=) which assigns the value of the right-hand operand to its
+        left-hand operand.
+    </p>
+
+    <h4>Q7. Explain the all Arithmetic Operators.</h4>
+    <p>
+        Ans: An arithmetic operator is a mathematical function that takes two operands and performs a calculation
+        between them.
+    <pre>
+            <b>There are 5 arithmetic operators:</b>
+
+            Addition (+) Adds one operand to the other
+            Subtraction (-) Subtracts the second operand from the first
+            Multiplication (*) Multiplies one operand by the other
+            Division (/) Divides the first operand by the second
+            Modulo (%) Divides the first integer operand by the second, and returns the remainder
+        </pre>
+    </p>
+
+    <h4>Q8. What are the Binary Operators in js.</h4>
+    <p>
+        Ans: A binary operator is an operator that operates on two operands and manipulates them to return a result.
+        Binary operators are presented in the form: Operand1, Operator, Operand2<br>Some common binary operators in
+        computing include:
+    <pre>
+            Equal (==)
+            Not equal (!=)
+            Less than (<)
+            Greater than (>)
+            Greater than or equal to (>=)
+            Less than or equal to (<=)
+            Logical AND (&&)
+            Logical OR (||)
+            Addition (+)
+            Subtraction (-)
+            Multiplication (*)
+            Divide (/)
+            Modulo (%)
+        </pre>
+    </p>
+
+    <h4>Q9. Explain the Pre-Increment and Post Increment in js.</h4>
+    <p>
+        Ans: Pre-increment (++i) - Before assigning the value to the variable, the value is incremented by one.
+    <pre>
+            Ex :- let x = 3;
+            let y = ++x;
+            console.log(x) //it will give output 4 
+            console.log(y) //it will give output 4.
+    
+    
+            Post-increment (i++) - After assigning the value to the variable, the value is incremented. 
+            Ex :- let x =3;
+            let y = x++;
+            console.log(x) //it will give output 4
+            console.log(y) //it will give output 3
+        </pre>
+    </p>
+
+    <h4>Q10. Difference between “ == “ and “ === “ operators.</h4>
+    <p>
+        Ans: In javaScript == is used for comparing between two variable's value and === is used for comparing two variables as
+        well as it checks their datatype.
+    </p>
+</body>
+
+</html>
